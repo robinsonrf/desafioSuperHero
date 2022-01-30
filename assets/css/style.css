@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 5 ;
+}
+
+
+/* Hero Section */
+#hero-section{
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#hero-section h1{
+    font-size: 70px;
+    text-shadow: 3px 3px #aa6d1d;
+    vertical-align: auto !important;
+    
+    
+}
+
+#formulario{
+    /* background-color: #ff213d; */
+    background-color: #c4052a;
+    
+}
+
+.bg-hero{
+    background-color: #c4052a;
+    padding-bottom: 20px;
+}
+.bg-card{
+    background-color:#49c2fd;
+}
+
+footer{
+    /* background-color:#3e5be3; */
+    background-color:#49c2fd;
+}
+a{
+    text-decoration: none;
+}
+
+#footer i{
+    color: #ffffff;
+}
+.heroe{
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+
+/* TRANSITION PARA EL FONDO DEL NAV */
+.navscroll {
+    transition:background-color 1500ms; 
+}
+
+.navscroll.azul {
+    background-color:#49c2fd !important;
+}
