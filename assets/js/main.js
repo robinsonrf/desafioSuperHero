@@ -6,7 +6,8 @@ $(document).ready(function(){
 
         let valueInput = $("#heroeInput").val()
         
-        if (isNaN(valueInput) || valueInput <= 0 || valueInput > 731) {
+        // Correccion en el condicional
+        if (isNaN(valueInput) || valueInput <= 0 || valueInput > 732) {
             alert("Deber ser un numero en el rango de 1 - 732")
         }
             else {
